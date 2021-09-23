@@ -19,6 +19,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -97,6 +99,30 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Site.Master" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - FTP1.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - FTP10.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - FTP11.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - FTP2.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - FTP3.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - FTP4.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - FTP5.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - FTP6.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - FTP7.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - FTP8.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - FTP9.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - Web Deploy1.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - Web Deploy10.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - Web Deploy11.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - Web Deploy2.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - Web Deploy3.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - Web Deploy4.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - Web Deploy5.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - Web Deploy6.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - Web Deploy7.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - Web Deploy8.pubxml" />
+    <None Include="Properties\PublishProfiles\alpandis-demoapp - Web Deploy9.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
