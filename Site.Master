@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MYSQLCRUDApplication.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <title>
+    <asp:ContentPlaceHolder ID="titleContent" runat="server" />
+    </title>    
+    <link href="Styles/Site.css" rel="stylesheet" />
+    <link href="Styles/ui-bootstrap/jquery-ui.custom.css" rel="stylesheet" />
+    <link href="Styles/jquery.handsontable.full.css" rel="stylesheet" />
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.custom.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>   
+</head>
+<body>
+    <form id="form1" runat="server">
+     <div>
+          <div class="page">
+            <div class="header">
+                <div class="title">
+                    <h1>CRUD using MySQL Database </h1>                    
+                </div>
+            </div>          
+            <div class="main">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="clear">
+            </div>
+
+            <div class="footer">
+                <br />   About me         
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="https://github.com/Master-Al/crud-c-"
+            Target="_blank" ForeColor="Orange" Style="text-decoration: none"> Al Pandis </asp:HyperLink>                 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                 
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
